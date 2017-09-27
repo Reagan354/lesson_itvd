@@ -17,10 +17,10 @@ header.header
                 .logo: img.logo__pucture(src="images/logo.png" alt="picture")
                 nav.nav
                 - var items = ['Home', 'About Us', 'Our Aprouch', 'Our Works']
-                each item in items
-                    if item === "Home"
-                        a.nav__link.nav__link--active(href="#") = item
-                    else
-                        a.nav__link(href="#") = item
+                    each item in items
+                        if item === 'Home'
+                            a.nav__link.nav__link--active(href="#")= item
+                        else
+                            a.nav__link(href="#")= item
 
                 a.button.header__button.button--red(href="#") Free consultation
