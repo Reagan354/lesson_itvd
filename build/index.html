@@ -1,13 +1,25 @@
-doctype html
+<!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" href="css/main.min.css"/>
-    <title>Business</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>I learn pug and gulp</title>
   </head>
   <body>
-    <h1>This is a cool project</h1>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="contacts"><a class="contacts" href="tel:+380609999"><i class="fa fa-mobile" aria-hidden="true"></i><span class="contact__text">6337 3128</span></a><a class="contact" href="mailto:info@business.com"><i class="fa fa-envelope-o contact__icon contact__icon--email" aria-hidden="true"></i><span class="contact__text">info@business.com</span></a><a class="facebook-icon" href="facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></div>
+        </div>
+        <div class="container">
+          <div class="header__bottom">
+            <div class="logo"><img class="logo__pucture" src="images/logo.png" alt="picture"></div>
+            <nav class="nav"></nav><a class="nav__link nav__link--active" href="#">= item</a><a class="nav__link" href="#">= item</a><a class="nav__link" href="#">= item</a><a class="nav__link" href="#">= item</a><a class="button header__button button--red" href="#">Free consultation</a>
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
