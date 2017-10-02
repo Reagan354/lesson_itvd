@@ -1,14 +1,17 @@
+//Сюда складываются все стили
+
 @import "../global/vars";
 @import "fonts";
 @import "../sections/header";
 @import "mixins";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 
 html{
   box-sizing: border-box;
 }
 
 body{
-  /*font-family: $ff-main;*/
+  font-family: $ff-main;
   font-size: 1rem;
   line-height: 1.2;
 }
