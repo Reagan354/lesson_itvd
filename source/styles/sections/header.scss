@@ -5,12 +5,21 @@
     width: 100%;
     height: 25px;
   }
+  
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 41px 0 32px;
+  }
 }
 
 .contacts{
   text-align: right;
-  padding: 3px 15px 8px;
+  padding: 0 15px;
   text-decoration: none;
+  color: #000;
 }
 
 .contact{
@@ -20,14 +29,20 @@
   transition: 0.3s;
 
   &:hover{
-    color: lighten(#424242, 20%);
-  }
-
-  &__icon{
-    margin-left: 7px;
-    font-size: 1.2rem;
-
+    color: lighten(#424242, 30%);
   }
 }
 
+.fa{
+  margin: 2px 7px 0;
+  font-size: 1.2rem;
+}
 
+.contact__text{
+  margin: 2px 7px 0 7px;
+  text-decoration: none;
+}
+
+.fa.fa-facebook-square{
+  margin-left: 20px;
+}
